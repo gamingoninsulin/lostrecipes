@@ -8,8 +8,8 @@
   ],
   "code": "lostrecipes.item.crafting.SoupOnion",
   "eatTime": 2,
-  "icon": "lostrecipes/item/complete/soup/SoupOnion.qb",
-  "inHand": "lostrecipes/item/complete/soup/SoupOnion.qb",
+  "icon": "mods/lostrecipes/item/complete/soup/SoupOnion.qb",
+  "inHand": "mods/lostrecipes/item/complete/soup/SoupOnion.qb",
   "inHandOffset": {
     "x": 0.0,
     "y": 0.0,

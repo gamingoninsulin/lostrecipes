@@ -1,0 +1,43 @@
+{
+  "__inherits": "staxel/item/edible.config",
+  "categories": [
+    "soup",
+    "market",
+    "onion",
+    "food"
+  ],
+  "code": "lostrecipes.item.crafting.SoupOnion",
+  "eatTime": 2,
+  "icon": "lostrecipes/item/complete/soup/SoupOnion.qb",
+  "inHand": "lostrecipes/item/complete/soup/SoupOnion.qb",
+  "inHandOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "inHandRotation": {
+    "x": 0.0,
+    "y": 1.54,
+    "z": -1.54
+  },
+  "appliesStatus": {
+    "statuses" : [
+		"swift"
+	]
+  },
+  "isDockable": true,
+  "isDrink": true,
+  "kind": "staxel.item.CraftItem",
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 262,
+    "value": 438
+  },
+  "searchable": true,
+  "usageOffset": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  }
+}

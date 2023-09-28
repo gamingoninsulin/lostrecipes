@@ -1,0 +1,25 @@
+{
+  "name": "Salty Tomato",
+  "code": "lostrecipes.crafting.reaction.WaterJar",
+  "recipeStep": "boil",
+  "tools": [],
+  "docks": [
+    "staxel.tileObject.serverVillage.BoilingStation"
+  ],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.WaterJar"
+    }
+  ],
+  "results": [
+    {
+      "code": "staxel.item.crafting.Salt"
+    }
+  ],
+  "duration": 5,
+  "moveResultsToSite": "results",
+  "triggerDurationCraftManually": true,
+  "effectTrigger": "staxel.effect.DockItem",
+  "effect": "staxel.effect.cooking.Boil",
+  "processDrawable": "water"
+}

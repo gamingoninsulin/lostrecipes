@@ -1,0 +1,28 @@
+{
+  "name": "Tomato Soup",
+  "code": "lostrecipes.crafting.reaction.SoupOnion",
+  "recipeStep": "boil",
+  "tools": [],
+  "docks": [
+    "staxel.tileObject.serverVillage.BoilingStation"
+  ],
+  "reagents": [
+    {
+      "code": "staxel.item.crafting.WaterJar"
+    },
+    {
+      "code": "staxel.item.crafting.CutOnion"
+    }
+  ],
+  "results": [
+    {
+      "code": "lostrecipes.item.crafting.SoupOnion"
+    }
+  ],
+  "duration": 5,
+  "moveResultsToSite": "results",
+  "triggerDurationCraftManually": true,
+  "effectTrigger": "staxel.effect.DockItem",
+  "effect": "staxel.effect.cooking.Boil",
+  "processDrawable": "water"
+}

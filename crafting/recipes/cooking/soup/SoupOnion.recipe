@@ -1,0 +1,31 @@
+{
+  "__inherits": "staxel/crafting/recipes/cookingRecipe.config",
+  "code": "lostrecipes.crafting.recipes.SoupOnion",
+  "grouping": "starters",
+  "ingredients": [
+    {
+      "code": "staxel.item.crops.Onion"
+    },
+    {
+      "code": "staxel.item.crafting.WaterJar"
+    }
+  ],
+  "pricing": {
+    "catalogueUnlockedFromStart": false,
+    "buyable": true,
+    "sellPrice": 147,
+    "value": 245
+  },
+  "result": {
+    "count": 1,
+    "item": {
+      "code": "lostrecipes.item.crafting.SoupOnion"
+    }
+  },
+  "searchable": true,
+  "starter": true,
+  "steps": [
+    "staxel.crafting.reaction.CutOnion",
+    "lostrecipes.crafting.reaction.SoupOnion"
+  ]
+}
